@@ -1,0 +1,21 @@
+print("Welcome to Olads store")
+print("1.WasteBasket \n2.PlasticBroom \n3.ToiletBrush \n4.Liquid Soap \n5.Sponge")
+purchase_products = int(input("Enter ProductNumber : "))
+Make_Payment = int(input("Product amount : "))
+print("payment mode \n1.Ussd \n2.Bank Transfer")
+payment_selection = int(input("Enter number: "))
+print("make your payment to this account")
+print("7035988776 \nBank Name:Opay Digital Services \nAccount Name: Olads Store 1")
+print('payment successful✅')
+print('select delivery option')
+print("1.Home Delivery \n2.Pickup station ")
+Delivery_Option = int(input("Enter Selection: "))
+if Delivery_Option == 2:
+   print("make payment")
+   payment= int(input("Enter amount: "))
+else:
+   print("Enter your location")
+   location =  input("Enter location : ")
+   print(f"your order will be delivered to {location} ")
+
+print('Thanks for using our service😁👍')
