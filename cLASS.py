@@ -1,0 +1,8 @@
+OWO_LAPO = int(input("code:"))
+print("Welcome to OWO LAPO")
+print("1.Borrow \n2.Repay loan")
+num = int(input("Enter number: "))
+id = int(input("Enter ID : "))
+Amount = int(input("Enter Amount : "))
+print("Transaction Successful")
+print("Thanks for using our service 🤡")
