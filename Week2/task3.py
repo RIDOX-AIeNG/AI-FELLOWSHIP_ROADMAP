@@ -31,3 +31,6 @@ print(less)
 string = "1234"
 print(int(string)*2)
 
+string = 'apple, banana,orange'
+print(string.split(','))
+
