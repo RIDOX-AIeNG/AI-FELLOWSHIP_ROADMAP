@@ -34,3 +34,5 @@ print(int(string)*2)
 string = 'apple, banana,orange'
 print(string.split(','))
 
+sentence = input('enter sentence here :')
+print('\n.join(sentence.split())')
