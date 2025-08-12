@@ -17,7 +17,25 @@ sentence = input("enter sentence: ")
 print(sentence.split())
 print(len(sentence))
 
-#Create a student score tracker
+# Nmae Organizer
+empty_list = []
+user1 = input("your name: ").lower()
+user2 = input("your name: ").lower()
+user3 = input("your name: ").lower()
+user4 = input("your name: ").lower()
+user5 = input("your name: ").lower()
+empty_list.append(user1)
+empty_list.append(user2)
+empty_list.append(user3)
+empty_list.append(user4)
+empty_list.append(user5)
+empty_list.sort()
+print("\n".join(empty_list))
+
+
+
+
+# Create a student score tracker
 empty_list1 = []
 empty_list2 =[]
 sscore1 = input("your score: ")
@@ -38,10 +56,16 @@ print(f"{sname1[0]}  \t {sscore1[0]}")
 print(f"{sname2[1]} \t {sscore2[1]}")
 print(f"{sname3[2]} \t {sscore3[2]}")      
 
+#Word Analyzer
 word = input("enter sentence: ")
 print(len(word))
+is_upper = word.isupper()
+is_lower = word.islower()
+title = word.istitle()
+reversed_word = word[::-1]
+print(reversed_word)
 
-#Cities 
+# #Cities 
 cities = ["beks", "lagos", "oyo","osogbo","abidjan"]
 newcity = input("enter your city: ")
 cities[2] = newcity
