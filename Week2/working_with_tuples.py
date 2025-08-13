@@ -1,0 +1,1 @@
+#Tuples - A tuple is an ordered, immutable (unchangeable) collection of items in python
