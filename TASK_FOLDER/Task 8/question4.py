@@ -1,0 +1,9 @@
+student = {}
+name = input("enter your name: ")
+Age = input("Enter your age: ")
+student["name"] = name
+student["age"] = Age
+scores = [34,56,79]
+student["score"] = scores
+average = sum(scores)/len(scores)
+student["passed"] = average
