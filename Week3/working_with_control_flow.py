@@ -1,5 +1,5 @@
-# #Conditional Statement
-# #If Statement
+#Conditional Statement
+#If Statement
 # age = 20
 # if age >= 18:
 #     print("You are eligible to vote")
@@ -112,7 +112,7 @@
 #         continue
 #     print(num)
 
-#3. Pass - Does nothing. It is used when you haven't written the code yet but want to keep the structure.
+# #3. Pass - Does nothing. It is used when you haven't written the code yet but want to keep the structure.
 # for num in range(1,6):
 #     if num == 3:
 #         pass # do nothing for now
@@ -138,7 +138,7 @@
 #         print("Invalid choice. Try again.")
     
 
-# Using while True for validation
+# #Using while True for validation
 # while True:
 #     age = input("Enter your age: ")
 #     if age.isdigit():
@@ -175,7 +175,8 @@ while True:
         amount = int(input("Enter withdrawal amount: "))
         if amount <= balance:
             print('withdrawal successful.')
-            print(f'New balance is {balance}')
+            new_balance = balance - amount
+            print(f'New balance is {new_balance}')
         else:
             print("Insufficient funds")
     elif choice == "3":
