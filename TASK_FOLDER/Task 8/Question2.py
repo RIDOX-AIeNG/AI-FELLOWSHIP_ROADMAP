@@ -19,5 +19,4 @@ print(academic_qualification)
 accepted_grade = ("A" in academic_qualification) or ("B" in academic_qualification)
 print(f"accepted grade {accepted_grade}")
 eligibility = (Citizenship == "nigerian") and (Employment_status == "undergraduate") and (Scholarship_Enrolled == "no") and (accepted_grade == True)
-
 print(f"Candidate:{Name}\nCitizenship:{Citizenship}\nEmployment Status:{Employment_status}\nEnrollment: {Scholarship_Enrolled}\nEligible: {eligibility}")
