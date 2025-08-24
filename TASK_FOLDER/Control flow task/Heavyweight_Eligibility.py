@@ -1,7 +1,7 @@
 #This is to check for eligibility of candidates for heavyweights.
 
-accepted_weight = 160 
-age = 25
+accepted_weight = 180
+age = 30
 
 user_name = input('Ënter your name: ')
 

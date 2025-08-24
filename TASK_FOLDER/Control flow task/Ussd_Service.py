@@ -17,7 +17,6 @@ while True:
 
         choice = input("enter choice: ")
         if choice == "1":
-            print("Enter amount: ")
             amount = int(input("Enter amount: "))
             if amount <= balance:
                 print("Airtime purchased successfully")
@@ -26,7 +25,6 @@ while True:
             else:
                 print("Balance is insufficient")
         elif choice == "2":
-            print("Enter amount: ")
             amount = int(input("Enter amount: "))
             if amount <= balance:
                 print("Airtime purchased successfully")
@@ -40,17 +38,14 @@ while True:
 
         choice = input("enter choice: ")
         if choice == "1":
-           print("Enter amount: ")
            amount = int(input("Enter amount: "))
            if amount <= balance:
                print('data purchased successfully')
         elif choice == "2":
-           print("Enter amount: ")
            amount = int(input("Enter amount: "))
            if amount <= balance:
                print('data purchased successfully')
         elif choice == "3":
-            print("Enter amount: ")
             amount = int(input("Enter amount: "))
             if amount <= balance:
                 print('data purchased successfully')
