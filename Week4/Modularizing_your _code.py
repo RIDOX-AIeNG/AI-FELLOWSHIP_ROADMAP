@@ -229,5 +229,4 @@ def participant_profile(name, age, track= "AI Development", *skills, **extra_inf
         for key, value in extra_info.items():
              profile += f" - {key.capitalize()}: {value}\n"
      return profile  
-
-#Example 1: Using only   
+print(participant_profile("Peter", 24))
