@@ -1,31 +1,31 @@
-# #Tuples - A tuple is an ordered, immutable (unchangeable) collection of items in python
-# # Creating Tuples
+#Tuples - A tuple is an ordered, immutable (unchangeable) collection of items in python
+# Creating Tuples
 
-# #1. Using Parenthesis()
-# #Example 1: tuple with multiple items
-# fruits = ("apple", "banana", "cherry")
-# print(fruits) #('apple', 'banana', 'cherry')
+#1. Using Parenthesis()
+#Example 1: tuple with multiple items
+fruits = ("apple", "banana", "cherry")
+print(fruits) #('apple', 'banana', 'cherry')
 
-# #2.Without parenthesis (tuple packing)
-# numbers = 1, 2, 3
-# print(numbers) # (1, 2, 3)
+#2.Without parenthesis (tuple packing)
+numbers = 1, 2, 3
+print(numbers) # (1, 2, 3)
 
-# #3. Single-item tuple (musyt include a comma)
-# single_item = ("apple", 12)
-# print(single_item)  #('apple',)
-# print(type(single_item)) # <class 'tuple'>
+#3. Single-item tuple (musyt include a comma)
+single_item = ("apple", 12)
+print(single_item)  #('apple',12)
+print(type(single_item)) # <class 'tuple'>
 
-# fruits_list = ["apple", "banana", "cherry"]
-# fruits_tuple = tuple(fruits_list)
-# print(fruits_tuple) 
+fruits_list = ["apple", "banana", "cherry"]
+fruits_tuple = tuple(fruits_list)
+print(fruits_tuple) 
 
-# # Characteristics opf a tuple - They are orderd, immutable, Allow duplicates, can contain mixed data types, can be nested.
+# Characteristics opf a tuple - They are orderd, immutable, Allow duplicates, can contain mixed data types, can be nested.
 
-# # 1.Ordered 
-# colors = ("red", "green", "blue")
-# print(colors[0])
-# #Immutable
-# colors[1] = "yellow" #TypeError
+# 1.Ordered 
+colors = ("red", "green", "blue")
+print(colors[0])
+#Immutable
+colors[1] = "yellow" #TypeError
 
 # 2.Allow duplicates 
 numbers = (1, 2, 2, 3)
