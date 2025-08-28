@@ -1,0 +1,15 @@
+{
+  "name": "Oyindamola",
+  "age": 16,
+  "courses": [
+    "Python",
+    "Data Science",
+    "Web Development"
+  ],
+  "grades": {
+    "Python": "A",
+    "Data Science": "B+",
+    "Web Development": "A-"
+  },
+  "is_graduated": false
+}
