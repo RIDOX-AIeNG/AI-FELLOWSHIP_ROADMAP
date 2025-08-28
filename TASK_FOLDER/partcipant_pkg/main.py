@@ -1,8 +1,7 @@
 name = input("Enter your name: ")
 try:
-    if name.isalpha(): and "name" != 0:
-    print(name)
-
+    if name.isalpha():
+        print(name)
     else:
         print("enter your name")
 except ValueError:
