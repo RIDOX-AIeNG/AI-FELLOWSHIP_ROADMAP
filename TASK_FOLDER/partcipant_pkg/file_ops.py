@@ -1,7 +1,7 @@
 import csv
 from pathlib import Path
 
-workspace = Path("workspace_files666666666666666666666666666666666666666666666666666666666
+workspace = Path("workspace_files)
 csv_file = workspace / "students.csv"
 
 # Create sample student data
