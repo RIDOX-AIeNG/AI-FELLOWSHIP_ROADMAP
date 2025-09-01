@@ -1,5 +1,3 @@
-Name,Age,Course,Grade
-Precious,20,Python,A
-Favour,22,JavaScript,B+
-Ore,21,Python,A-
-Susan,23,Data Science,A
+name,age,track,phone_number
+red,12,dev,89087654567
+eft,12,ghyu,12345678901

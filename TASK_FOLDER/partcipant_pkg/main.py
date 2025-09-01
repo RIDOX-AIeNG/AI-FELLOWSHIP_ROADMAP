@@ -1,3 +1,11 @@
+import file_ops
+from pathlib import Path
+
+workspace = Path("workspace_files")
+csv_file = workspace / "students.csv"
+
+
+
 name = input("Enter your name: ")
 try:
     if name.isalpha():
@@ -8,7 +16,7 @@ except ValueError:
     print("input a name")
 age = int(input("enter your age"))
 try:
-    if len(age) != 0:
+    if age > 0:
         print(age)
     else:
         print("enter your age")
@@ -21,9 +29,9 @@ if len(track) != 0:
 else:
     print('Enter your track')
 
-phone_number = int(input("Enter your PhoneNumber: "))
+phone_number = (input("Enter your PhoneNumber: "))
 try:
-    if len(phone_number) != 0:
+    if len(phone_number) == 11:
         print(phone_number)
     else:
         print("Enter valid number")
@@ -34,8 +42,14 @@ contact_info ={
     "name":name,
     "age": age,
     "track": track,
-    "phone number": phone_number
+    "phone_number": phone_number
 }
-contact_info.update()
+# contact_info.update()
 
 # contact_info.save_partcipant()
+
+file_ops.save_participant(csv_file, contact_info)
+print('\n Particpant data written to CSV file!')
+
+file_ops.load_partcipants(csv_file)
+print('\n Participant data loaded')
